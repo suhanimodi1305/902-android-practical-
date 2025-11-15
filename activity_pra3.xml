@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pra3"
+    android:padding="16dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME:-SUHANI MODI"
+        android:textSize="18sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="practical:-2"
+        android:textSize="18sp"
+        android:layout_marginBottom="4dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/p1"
+        android:scaleType="fitCenter"/>
+
+    <Spinner
+        android:id="@+id/spinnerimage"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="96dp"
+        android:entries="@array/strArrayImage"/>
+    <Spinner
+        android:id="@+id/spinneranim"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="96dp"
+        android:entries="@array/strArrayAnim"/>
+
+
+</LinearLayout>
